@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IQC.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6d447bd2694b25fdf7767d0492178ef33fc2da0")]
 [assembly: System.Reflection.AssemblyProductAttribute("IQC.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IQC.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

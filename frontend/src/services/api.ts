@@ -27,6 +27,17 @@ export const scanProductQR = async (qrData: string): Promise<Product> => {
   }
 };
 
+export const getInspectionHistory = async (inspectorName: string, date: string): Promise<Product[]> => {
+  try {
+    const response = await fetch(`${BASE_URL}/products/history?inspectorName=${encodeURIComponent(inspectorName)}&date=${encodeURIComponent(date)}`);
+    if (!response.ok) throw new Error('Failed to fetch inspections history');
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching history:', error);
+    throw error;
+  }
+};
+
 export const updateProductStatus = async (id: number, status: string, inspectorName: string = '') => {
   try {
     const response = await fetch(`${BASE_URL}/products/${id}/status`, {

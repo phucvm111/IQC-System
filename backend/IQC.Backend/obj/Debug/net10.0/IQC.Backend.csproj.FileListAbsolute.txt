@@ -157,3 +157,4 @@ D:\QR_test\backend\IQC.Backend\obj\Debug\net10.0\IQC.Backend.pdb
 D:\QR_test\backend\IQC.Backend\obj\Debug\net10.0\IQC.Backend.genruntimeconfig.cache
 D:\QR_test\backend\IQC.Backend\obj\Debug\net10.0\ref\IQC.Backend.dll
 D:\QR_test\backend\IQC.Backend\bin\Debug\net10.0\IQC.Backend.staticwebassets.runtime.json
+D:\QR_test\backend\IQC.Backend\obj\Debug\net10.0\IQC.Backend.sourcelink.json

@@ -31,6 +31,31 @@ namespace IQC.Backend.Controllers
             return Ok(product);
         }
 
+        [HttpGet("history")]
+        public async Task<IActionResult> GetHistoryProducts([FromQuery] string? inspectorName, [FromQuery] string? date)
+        {
+            string datePrefix;
+            if (DateTime.TryParse(date, out DateTime parsedDate))
+            {
+                datePrefix = $"IQC{parsedDate:yyMMdd}";
+            }
+            else
+            {
+                datePrefix = $"IQC{DateTime.Now:yyMMdd}";
+            }
+
+            var query = _context.Products.Where(p => p.RecordCode != null && p.RecordCode.StartsWith(datePrefix));
+            
+            if (!string.IsNullOrEmpty(inspectorName))
+            {
+                // Return products assigned to this inspector, or drafts (no inspector assigned yet)
+                query = query.Where(p => p.InspectorName == inspectorName || string.IsNullOrEmpty(p.InspectorName));
+            }
+
+            var products = await query.OrderByDescending(p => p.Id).ToListAsync();
+            return Ok(products);
+        }
+
         [HttpPost("{id}/step")]
         public async Task<IActionResult> UploadStepFile(int id, [FromForm] IFormFile file)
         {
