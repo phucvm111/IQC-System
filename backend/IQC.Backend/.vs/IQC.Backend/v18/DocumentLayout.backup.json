@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QR_test\\backend\\IQC.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|d:\\qr_test\\backend\\iqc.backend\\migrations\\20260623094015_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|solutionrelative:migrations\\20260623094015_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|d:\\qr_test\\backend\\iqc.backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|d:\\qr_test\\backend\\iqc.backend\\models\\defectticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|solutionrelative:models\\defectticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|d:\\qr_test\\backend\\iqc.backend\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|d:\\qr_test\\backend\\iqc.backend\\models\\inspectionrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|solutionrelative:models\\inspectionrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|d:\\qr_test\\backend\\iqc.backend\\models\\drawing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|solutionrelative:models\\drawing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|d:\\qr_test\\backend\\iqc.backend\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D257FDEB-1027-E80A-ED57-C5882E794E18}|IQC.Backend.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InspectionRecord.cs",
+              "DocumentMoniker": "D:\\QR_test\\backend\\IQC.Backend\\Models\\InspectionRecord.cs",
+              "RelativeDocumentMoniker": "Models\\InspectionRecord.cs",
+              "ToolTip": "D:\\QR_test\\backend\\IQC.Backend\\Models\\InspectionRecord.cs",
+              "RelativeToolTip": "Models\\InspectionRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:44:49.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DefectTicket.cs",
+              "DocumentMoniker": "D:\\QR_test\\backend\\IQC.Backend\\Models\\DefectTicket.cs",
+              "RelativeDocumentMoniker": "Models\\DefectTicket.cs",
+              "ToolTip": "D:\\QR_test\\backend\\IQC.Backend\\Models\\DefectTicket.cs",
+              "RelativeToolTip": "Models\\DefectTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:44:47.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\QR_test\\backend\\IQC.Backend\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\QR_test\\backend\\IQC.Backend\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:40:26.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\QR_test\\backend\\IQC.Backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\QR_test\\backend\\IQC.Backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:23:08.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260623094015_InitialCreate.cs",
+              "DocumentMoniker": "D:\\QR_test\\backend\\IQC.Backend\\Migrations\\20260623094015_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260623094015_InitialCreate.cs",
+              "ToolTip": "D:\\QR_test\\backend\\IQC.Backend\\Migrations\\20260623094015_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260623094015_InitialCreate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:23:13.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Drawing.cs",
+              "DocumentMoniker": "D:\\QR_test\\backend\\IQC.Backend\\Models\\Drawing.cs",
+              "RelativeDocumentMoniker": "Models\\Drawing.cs",
+              "ToolTip": "D:\\QR_test\\backend\\IQC.Backend\\Models\\Drawing.cs",
+              "RelativeToolTip": "Models\\Drawing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:44:48.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\QR_test\\backend\\IQC.Backend\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\QR_test\\backend\\IQC.Backend\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:23:14.531Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
